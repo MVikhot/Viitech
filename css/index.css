@@ -7,6 +7,7 @@
     --accent-color: blue;
     scroll-behavior: smooth;
 }
+
 body {
     margin: auto;
 }
@@ -124,12 +125,38 @@ main article a .top-news {
   margin-right: auto;
   width: 50%;
 }
+
+.first-a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
 article>a>h4 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+
+article>a {
+  text-decoration: none;
+  color: var(--main-color);
+
+}
+article>p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;}
+
+@media (min-width: 550px) {
+       div .menu .vertical-menu{
+        flex: 1;
+    }
+}
+
 footer{
     text-align: center;
     max-height:40px;
